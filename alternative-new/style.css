@@ -4,6 +4,17 @@ body {
     font-family: Poppins;
     margin: 0;
   }
+  .dot-1 {
+    height: 350px;
+    width: 350px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    rotate: 25deg;
+  }
 
   h3 {
     margin: 0px;
