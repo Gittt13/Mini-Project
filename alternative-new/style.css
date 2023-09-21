@@ -6,7 +6,7 @@ body {
   }
   /* lingkaran */
 .dot1 {
-    padding: 2rem;
+    padding: 1rem;
     height: 250px;
     width: 250px;
     background-color: red;
@@ -17,7 +17,7 @@ body {
     align-items: center;
     rotate: 25deg;
     text-align: center;
-    font: 900 25px/100% "Inter", sans-serif;
+    font: 900 19px/100% "Inter", sans-serif;
     position: absolute;
     left: 1280.56px;
     top: 130.72px;
@@ -30,7 +30,7 @@ body {
     justify-content: center;
   }
 .dot2 {
-    padding: 2rem;
+    padding: 1rem;
     height: 250px;
     width: 250px;
     background-color: red;
@@ -41,7 +41,7 @@ body {
     align-items: center;
     rotate: 25deg;
     text-align: center;
-    font: 900 25px/100% "Inter", sans-serif;
+    font: 900 19px/100% "Inter", sans-serif;
     position: absolute;
     left: 985.56px;
     top: 130.72px;
@@ -54,7 +54,7 @@ body {
     justify-content: center;
   }
 .dot3{
-    padding: 2rem;
+    padding: 1rem;
     height: 250px;
     width: 250px;
     background-color: red;
@@ -65,7 +65,7 @@ body {
     align-items: center;
     rotate: 25deg;
     text-align: center;
-    font: 900 25px/100% "Inter", sans-serif;
+    font: 900 19px/100% "Inter", sans-serif;
     position: absolute;
     left: 705.56px;
     top: 130.72px;
@@ -78,7 +78,7 @@ body {
     justify-content: center;
   }
 .dot4 {
-    padding: 2rem;
+    padding: 1rem;
     height: 250px;
     width: 250px;
     background-color: red;
@@ -89,7 +89,7 @@ body {
     align-items: center;
     rotate: 25deg;
     text-align: center;
-    font: 900 25px/100% "Inter", sans-serif;
+    font: 900 19px/100% "Inter", sans-serif;
     position: absolute;
     left: 415.56px;
     top: 130.72px;
