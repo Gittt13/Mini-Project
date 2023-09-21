@@ -4,21 +4,95 @@ body {
     font-family: Poppins;
     margin: 0;
   }
-  .dot-1 {
-    /* height: 150px;
-    width: 150px;
+  /* lingkaran */
+.dot1 {
+    padding: 2rem;
+    height: 250px;
+    width: 250px;
     background-color: red;
     border-radius: 50%;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    rotate: 25deg; */
+    rotate: 25deg;
     text-align: center;
-    font: 900 20px/100% "Inter", sans-serif;
+    font: 900 25px/100% "Inter", sans-serif;
     position: absolute;
-    left: 1255.56px;
-    top: 180.72px;
+    left: 1280.56px;
+    top: 130.72px;
+    width: 77.85px;
+    height: 40.08px;
+    transform-origin: 0 0;
+    transform: rotate(25.515deg) scale(0.989, 1.01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.dot2 {
+    padding: 2rem;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    rotate: 25deg;
+    text-align: center;
+    font: 900 25px/100% "Inter", sans-serif;
+    position: absolute;
+    left: 985.56px;
+    top: 130.72px;
+    width: 77.85px;
+    height: 40.08px;
+    transform-origin: 0 0;
+    transform: rotate(25.515deg) scale(0.989, 1.01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.dot3{
+    padding: 2rem;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    rotate: 25deg;
+    text-align: center;
+    font: 900 25px/100% "Inter", sans-serif;
+    position: absolute;
+    left: 705.56px;
+    top: 130.72px;
+    width: 77.85px;
+    height: 40.08px;
+    transform-origin: 0 0;
+    transform: rotate(25.515deg) scale(0.989, 1.01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.dot4 {
+    padding: 2rem;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    rotate: 25deg;
+    text-align: center;
+    font: 900 25px/100% "Inter", sans-serif;
+    position: absolute;
+    left: 415.56px;
+    top: 130.72px;
     width: 77.85px;
     height: 40.08px;
     transform-origin: 0 0;
