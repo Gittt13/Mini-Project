@@ -157,6 +157,10 @@ body {
     margin-right: 2rem;
     padding-bottom: 10px;
   }
+  .menus a:hover {
+    color: orange;
+    transition: 0.3s;
+  }
   .in-cari {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -197,6 +201,7 @@ body {
     max-height: 100%;
   }
   .card-1:hover {
+    transform: scale(1.1);
     box-shadow: 0 0 20px 0 white;
     transition: 0.3s;
   }
@@ -214,7 +219,7 @@ body {
     border-radius: 5px 5px 0 0;
   }
   .tampil-image:hover {
-    transform: scale(1.1) rotate(-7deg);
+    transform: scale(1.1) rotate(-5deg);
     transition: 0.3s;
     box-shadow: 0 0 15px 0 white;
     border: 3px solid white;
