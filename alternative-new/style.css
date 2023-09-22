@@ -233,6 +233,16 @@ body {
     padding-right: 2rem;
     border-radius: 5px;
   }
+  .btn-beli:hover {
+    transition: 0.2s;
+    background-color: greenyellow;
+    box-shadow: 0 0 15px 5px greenyellow;
+  }
+  .btn-detail:hover {
+    transition: 0.2s;
+    background-color: rgb(255, 85, 85);
+    box-shadow: 0 0 15px 5px rgb(255, 85, 85);
+  }
   /* CARD */
 
   /* BOTTOM CONTENT */
