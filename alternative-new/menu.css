@@ -73,6 +73,21 @@ section {
 .image-bakso-bakar {
     background-image: url(Bakso-Bakar.jpg);
 }
+.image-mie-ayam-bakso-kecil {
+    background-image: url(mie-ayam-bakso-kecil.jpg);
+}
+.image-mie-ayam-bakso-telur {
+    background-image: url(mie-ayam-bakso-telur.jpg);
+}
+.image-mie-ayam-bakso-daging {
+    background-image: url(mie-ayam-bakso-daging.jpg);
+}
+.image-mie-ayam-bakso-mercon {
+    background-image: url(image-mie-ayam-bakso-mercon.jpg);
+}
+.image-mie-ayam-bakso-super {
+    background-image: url(image-mie-ayam-bakso-super.jpg);
+}
 /* Gambar Bakso */
 
 .cards-makanan .kartu .keterangan .nama-food {
