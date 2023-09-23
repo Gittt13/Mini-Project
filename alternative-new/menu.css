@@ -67,6 +67,12 @@ section {
 .image-bakso-telur {
     background-image: url(bakso-telur.jpeg);
 }
+.image-bakso-mercon {
+    background-image: url(Bakso-Mercon.jpeg);
+}
+.image-bakso-bakar {
+    background-image: url(Bakso-Bakar.jpg);
+}
 /* Gambar Bakso */
 
 .cards-makanan .kartu .keterangan .nama-food {
