@@ -188,13 +188,13 @@ body {
   }
   .btn-beli-sekarang {
     border: 2px solid white;
-    box-shadow: 0 0 5px 2px tomato;
     transition: 0.2s;
+    color: white;
   }
   .btn-beli-sekarang:hover {
     background-color: rgb(190, 0, 0);
     box-shadow: none;
-    transform: scale(0.9);
+    transform: scale(1.2);
   }
   .btn-beli:hover {
     background-color: greenyellow;
