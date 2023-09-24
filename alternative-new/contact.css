@@ -1,22 +1,24 @@
 .text-form {
-    color: yellowgreen;
+    color: orange;
 }
 .button {
     padding: 32px 16px;
     background-color: red;
     border: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
+    transition-duration: 1s;
     cursor: pointer;
     border-radius: 12px;
 }
 .button:hover {
-    background-color: #750800;
+    background-color: rgb(175, 6, 6);
+    border: 1px solid rgb(255, 255, 255);
+    transition: 1s;
     
 }
