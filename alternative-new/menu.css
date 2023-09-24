@@ -70,6 +70,15 @@ section {
 .image-bakso-mercon {
     background-image: url(Bakso-Mercon.jpeg);
 }
+.image-bakso-malang {
+    background-image: url(bakso-malang.jpg);
+}
+.image-bakso-tetelan {
+    background-image: url(bakso-tetelan.jpeg);
+}
+.image-bakso-gepeng {
+    background-image: url(bakso-gepeng.jpg);
+}
 .image-bakso-bakar {
     background-image: url(Bakso-Bakar.jpg);
 }
