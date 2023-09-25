@@ -1,0 +1,46 @@
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-family: 'Island Moments', sans-serif;
+  color: #f4610c;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-about  {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #f4610c;
+  border-radius: 10px;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  font-size: 24px;
+}
+
+.text p {
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
