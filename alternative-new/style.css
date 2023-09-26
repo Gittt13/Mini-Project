@@ -264,11 +264,9 @@ button:hover {
   }
   .menus {
       margin-top: 1rem;
-      justify-content: space-between;
   }
   .menus a {
-      margin: 1rem 0;
-      justify-content: space-between;
+      margin: 10px;
   }
   .in-cari {
       margin-top: 1rem;
