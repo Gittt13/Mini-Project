@@ -8,29 +8,30 @@
     <!-- link ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  </head>
-  <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat&family=Poppins&display=swap" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat&family=Poppins&display=swap" rel="stylesheet" />
 
         <!--CDN Bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="menu.css" />
-        <link rel="stylesheet" href="contact.css" />
-      </head>
-      <body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="contact.css" />
+    </head>
+    <body>
         <!-- NAV -->
         <nav class="navbar">
           <div class="logo" style="display: flex; align-items: center">
@@ -73,20 +74,120 @@
                 </button>
               </div>
               </div>
+
               <div class="col border border-warning rounded-2 p-5">
                 <div class="row">
-                  <h5><ion-icon name="call-outline"></ion-icon> 0813-6711-8125 (HP)<br>0831-7900-3925 (WA)</h5>
-                </div>
-                <div class="row">
-                  <h5><ion-icon name="mail-outline"></ion-icon> baksobontet@gmail.com</h5>
-                </div>
-                <div class="row">
-                  <h5><ion-icon name="globe-outline"></ion-icon> http://www.baksobontet.id</h5>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                          aria-expanded="true" aria-controls="collapseOne">
+                          Apa menu utama yang ditawarkan oleh Bakso Bontet?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Kami menawarkan berbagai jenis bakso, termasuk Bakso Super, Bakso Daging, Bakso Spesial, dan Mie Ayam Bakso
+                          Super, itu semua menu favorit kami, selain itu juga kami menyediakan menu lain seperti Nasi ayam bakar dan
+                          Nasi Goreng serta pendamping makananan yaitu minuman.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Berapa harga rata-rata untuk menu bakso di Bakso Bontet?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Harga menu bakso kami bervariasi, tetapi rata-rata harga berkisar antara Rp. 15.000 hingga Rp. 30.000.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Bagaimana cara memesan makanan dari Bakso Bontet ?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Anda dapat memesan makanan kami melalui situs web kami atau datang langsung ke toko kami. Kami juga
+                            menerima pesanan telepon untuk pengiriman atau pengambilan.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Apa metode pembayaran yang diterima oleh Bakso Bontet?
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Kami menerima pembayaran tunai di toko, serta pembayaran QRIS dan COD ketika kami antar makanan.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Apakah Bakso Bontet memiliki layanan pengiriman?
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Ya, kami menyediakan layanan pengiriman. Anda dapat memesan melalui situs web atau menghubungi kami untuk
+                          pengiriman di daerah sekitar resto kami.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
         </form>
+        <div class="container">
+          <h1 class="text-center" style="color: yellow;">Contact Address</h1>
+          <hr class="hr">
+            <div class="row">
+              <div class="col-sm-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="320" frameborder="0" style="color: yellow; border:0" allowfullscreen>
+                </iframe>
+              </div>
+          
+              <div class="col-sm-4" id="contact2">
+                  <h3 class="text-aja">Contact Dan Alamat</h3>
+                  <hr class="hr" align="left" width="50%" style="color: yellow;">
+                  <h4 class="pt-2 text-aja">Tempat Operasional</h4>
+                  <i class="fas fa-globe" style="color:yellow"></i><a href="" class="text-aja">Alamat</a><br>
+                  <h4 class="pt-2 text-aja">Contact</h4>
+                  <i class="fas fa-phone text-aja" style="color:yellow"></i> <a href="tel:+"> 123456 </a><br>
+                  <i class="fab fa-whatsapp text-aja" style="color:yellow"></i><a href="tel:+"> 123456 </a><br>
+                  <h4 class="pt-2 text-aja">Email</h4>
+                  <i class="fa fa-envelope text-aja" style="color:yellow"></i> <a href="">test@test.com</a><br>
+                </div>
+            </div>
+          </div>
+          
+          
+          
+          <br><br>
+          <div class="row text-center bg-success text-white" id="author">
+            <div class="col-12 mt-4 h3 ">
+            <a class="a" href="#">Kelompok 4</a>
+          </div>
+          <div class="col-12 my-2">
+          <a class="a" href="https://www.linkedin.com/in/muhammad-anggit-b83772262/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+          </div>
+          </div>
       </body>
     </html>
   </body>
