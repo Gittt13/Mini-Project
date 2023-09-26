@@ -279,19 +279,10 @@ button:hover {
       margin: 1rem;
   }
   .bottom-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-  .bottom-content button {
-      margin: 1rem 0;
-  }
-  .bottom-content {
       flex-direction: column-reverse;
       align-items: center;
       text-align: center;
   }
-
   .bottom-content button {
       margin: 1rem 0;
   }
