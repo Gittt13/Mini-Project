@@ -52,11 +52,11 @@ section {
     height: 150px;
 }
 /* Gambar ayam bakar */
-.image-minuman-es-teh {
-    background-image: url(Es-Teh.jpg);
+.image-teh-hangat {
+    background-image: url(img-teh-panas.jpg);
 }
-.image-minuman-lemon-tea {
-    background-image: url(lemon-tea.jpg);
+.image-es-campur {
+    background-image: url(img-es-campur.jpg);
 }
 .image-minuman-es-jeruk {
     background-image: url(es-jeruk.jpg);

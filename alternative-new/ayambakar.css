@@ -55,33 +55,16 @@ section {
 .image-ayam-bakar-biasa {
     background-image: url(nasi-ayam-bakar-biasa.jpg);
 }
-.image-ayam-bakar-kampung {
-    background-image: url(nasi-ayam-bakar-kampung.jpg);
+.image-nasi-goreng{
+    background-image: url(img-nasi-goreng.jpg);
 }
 .image-ayam-geprek {
     background-image: url(nasi-ayam-geprek.jpg);
 }
-.image-geprek-matah {
-    background-image: url(Geprek_matah.jpg);
+.image-ayam-goreng {
+    background-image: url(img-nasi-ayam-goreng.jpg);
 }
-.image-ayam-penyet {
-    background-image: url(ayam_penyet.jpg);
-}
-.image-sambel-tomat {
-    background-image: url(sambal-tomat.jpg);
-}
-.image-sambel-bawang{
-    background-image: url(sambal-bawang.jpg);
-}
-.image-sambel-terasi{
-    background-image: url(sambal-terasi.jpeg);
-}
-.image-sambel-matah{
-    background-image: url(Sambal_Matah.jpg);
-}
-.image-sambel-ijo{
-    background-image: url(sambal-ijo.jpg);
-}
+
 /* Gambar ayam bakar */
 
 .cards-makanan .kartu .keterangan .nama-food {
