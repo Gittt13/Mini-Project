@@ -147,3 +147,9 @@ section {
     transform: scale(0.9);
 }
 /* Makanan */
+@media (max-width: 768px) {
+    .cards-makanan .kartu {
+      width: calc(50% - 1rem); /* Mengatur lebar kartu agar 2 kartu masuk dalam satu baris /
+      margin-bottom: 1rem; / Jarak antara kartu */
+    }
+  }
