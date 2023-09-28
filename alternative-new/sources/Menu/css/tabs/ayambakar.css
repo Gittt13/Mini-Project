@@ -53,16 +53,16 @@ section {
 }
 /* Gambar ayam bakar */
 .image-ayam-bakar-biasa {
-    background-image: url(/alternative-new/assets/images/Makanan/Nasi/nasi-ayam-bakar-biasa.jpg);
+    background-image: url(../../../../assets/images/Makanan/Nasi/nasi-ayam-bakar-biasa.jpg);
 }
 .image-nasi-goreng{
-    background-image: url(/alternative-new/assets/images/Makanan/Nasi/img-nasi-goreng.jpg);
+    background-image: url(../../../../assets/images/Makanan/Nasi/img-nasi-goreng.jpg);
 }
 .image-ayam-geprek {
-    background-image: url(/alternative-new/assets/images/Makanan/Nasi/nasi-ayam-geprek.jpg);
+    background-image: url(../../../../assets/images/Makanan/Nasi/nasi-ayam-geprek.jpg);
 }
 .image-ayam-goreng {
-    background-image: url(/alternative-new/assets/images/Makanan/Nasi/img-nasi-ayam-goreng.jpg);
+    background-image: url(../../../../assets/images/Makanan/Nasi/img-nasi-ayam-goreng.jpg);
 }
 
 /* Gambar ayam bakar */
