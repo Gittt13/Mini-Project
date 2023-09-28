@@ -1,11 +1,13 @@
-/* Punya Anggit */
 .warna-anggit {
   color: rgb(42, 60, 255);
 }
 
-/* Warna Seiya */
 .selamat {
   color: yellow;
+}
+
+.pabout {
+  color: rgb(115, 255, 0);
 }
 
 /*# sourceMappingURL=sass.css.map */
