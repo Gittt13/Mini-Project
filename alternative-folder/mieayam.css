@@ -1,0 +1,125 @@
+section {
+    background-color: rgba(0, 0, 0, 0.379);
+}
+
+/* Title Menu */
+.title-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-menu .txt-menu {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* Title Menu */
+
+
+/* Makanan */
+.makanan {
+    padding: 2rem;
+}
+.cards-makanan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+.cards-makanan .kartu {
+    border-radius: 20px;
+    border: 3px solid white;
+    width: 200px;
+    max-height: 100%;
+}
+.cards-makanan .kartu .keterangan {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.cards-makanan .kartu .tampil-image-menu {
+    border-radius: 20px 20px 0 0;
+    /* background-image: url('beranak.jpeg'); */
+    background-size: cover;
+    max-width: 100%;
+    height: 150px;
+}
+/* Gambar mieayam */
+.image-mie-ayam-bakso-kecil {
+    background-image: url(mie-ayam-bakso-kecil.jpg);
+}
+.image-mie-ayam-bakso-telur {
+    background-image: url(mie-ayam-bakso-telur.jpg);
+}
+.image-mie-ayam-bakso-daging {
+    background-image: url(mie-ayam-bakso-daging.jpg);
+}
+.image-mie-ayam-bakso-mercon {
+    background-image: url(mie-ayam-bakso-mercon.jpg);
+}
+.image-mie-ayam-bakso-super {
+    background-image: url(mie-ayam-bks-super.jpg);
+}
+/* Gambar mieayam */
+
+.cards-makanan .kartu .keterangan .nama-food {
+    color: white;
+}
+.cards-makanan .kartu .keterangan .jumlah {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 0.5rem;
+}
+.cards-makanan .kartu .keterangan .jumlah input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border: none;
+    border-radius: 100px;
+    width: 50px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.cards-makanan .kartu .keterangan .jumlah button {
+    color: white;
+    background: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    transition: 0.1s;
+}
+.cards-makanan .kartu .keterangan .jumlah button:hover {
+    transform: scale(1.5);
+}
+.cards-makanan .kartu .tombol-beli {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+.cards-makanan .kartu .tombol-beli:hover {
+    transform: scale(0.9);
+}
+/* Makanan */
+@media (max-width: 768px) {
+    .cards-makanan .kartu {
+      width: calc(50% - 1rem); /* Mengatur lebar kartu agar 2 kartu masuk dalam satu baris /
+      margin-bottom: 1rem; / Jarak antara kartu */
+    }
+  }
