@@ -1,8 +1,16 @@
 .teks-bima {
-  color: #30A2FF;
+  color: #F6FFDE;
 }
 
 .text-bima {
+  font-family: "Young Serif", serif;
+}
+
+.width-anggit {
+  font-size: 35px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #F6FFDE;
   font-family: "Young Serif", serif;
 }
 
