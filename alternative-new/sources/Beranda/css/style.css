@@ -407,3 +407,31 @@ button:hover {
     opacity: 1;
   }
 }
+
+/* animasi alamat */
+.blink-1 {
+	-webkit-animation: blink-1 2s infinite both;
+	        animation: blink-1 2s infinite both;
+}
+ @-webkit-keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
