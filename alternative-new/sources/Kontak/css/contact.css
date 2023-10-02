@@ -41,6 +41,15 @@ a {
     transition: color 0.3s, box-shadow 0.3s;
   }
 
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .kedap-kedip {
+    animation: blink 1s infinite;
+  }
 
   a.text-aja {
     color: yellow;
