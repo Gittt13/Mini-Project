@@ -54,13 +54,12 @@ body {
 }
 
 .text-bima:hover {
-  color: rgb(123, 45, 67); /* Ganti dengan warna RGB yang Anda inginkan */
-  transition: color 0.3s; /* Efek transisi warna untuk perubahan yang lebih halus */
+  color: rgb(123, 45, 67); 
+  transition: color 0.3s; 
 }
 
 .text p {
   font-family: 'Poppins', sans-serif;
-  /* color: #555; */
   font-size: 16px;
   line-height: 1.5;
 }
