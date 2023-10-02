@@ -36,11 +36,11 @@ body {
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 30px #e60073, 0 0 35px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow: 0 0 15px #e60073,
     }
   
     to {
-      text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6, 0 0 45px #ff4da6, 0 0 50px #ff4da6;
+      text-shadow: 0 0 10px #fff, 0 0 15px 
     }
 }
 
