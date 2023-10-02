@@ -29,6 +29,7 @@ section {
     padding-top: 1rem;
     padding-bottom: 1rem;
     gap: 1rem;
+    overflow-x: auto;
 }
 .cards-makanan .kartu {
     border-radius: 20px;

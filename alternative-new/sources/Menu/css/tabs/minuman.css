@@ -24,11 +24,11 @@ section {
 }
 .cards-makanan {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
     gap: 1rem;
+    overflow-x: auto;
 }
 .cards-makanan .kartu {
     border-radius: 20px;
@@ -43,6 +43,7 @@ section {
     margin-bottom: 0;
     align-items: center;
     justify-content: center;
+    overflow-x: auto;
 }
 .cards-makanan .kartu .tampil-image-menu {
     border-radius: 20px 20px 0 0;
