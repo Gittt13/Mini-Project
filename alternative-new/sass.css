@@ -1,21 +1,13 @@
+.text-anggit {
+  font-family: "Pixelify Sans", cursive, "Fuggles", cursive, "Pacifico", cursive;
+}
+
 .warna-anggit {
-  color: rgb(42, 60, 255);
+  color: white;
 }
 
-.selamat {
-  color: yellow;
-}
-
-.buatan-bima {
-  color: rgb(115, 255, 0);
-}
-
-.adi-color {
-  color: orange;
-}
-
-.nurul-color {
-  background-color: #2ca71c;
+.text-bima {
+  color: red;
 }
 
 /*# sourceMappingURL=sass.css.map */
