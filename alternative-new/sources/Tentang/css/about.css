@@ -35,10 +35,27 @@ body {
   text-align: center;
 }
 
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .teks-judul,h5 {
+    animation: blink 1.5s infinite;
+    color: #27005D; 
+  
+}
 .text h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #333;
+  color: #27005D;
   font-size: 24px;
+}
+
+.text-bima:hover {
+  color: rgb(123, 45, 67); /* Ganti dengan warna RGB yang Anda inginkan */
+  transition: color 0.3s; /* Efek transisi warna untuk perubahan yang lebih halus */
 }
 
 .text p {
