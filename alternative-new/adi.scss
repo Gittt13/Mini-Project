@@ -1,0 +1,14 @@
+// Jarak huruf
+$spacing: 10px;
+
+// Fungsi lebar
+@function lebar($a, $b) {
+    @return $a + $b;
+};
+
+.width {
+    // Lebar = 150px
+    width: lebar(100px, 50px);
+    letter-spacing: $spacing;
+}
+// -- Adi Kusuma -- //
