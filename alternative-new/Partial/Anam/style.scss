@@ -1,0 +1,9 @@
+@import 'variabelanam';
+
+.anam-color{
+    color: $putih;
+    background-color: $kuning;
+}
+.anam-fz{
+    @include anam;
+}
