@@ -30,6 +30,23 @@ ion-icon{
 }
 
 
+
+#faq-title {
+  text-align: center;
+  margin-top: 0px; 
+  font-size: 24px;
+  color: orange;
+}
+
+.accordion-item {
+  margin-top: 20px; 
+}
+
+
+.accordion-item:first-child {
+  margin-top: 0;
+}
+
 .hr {border-top: 2px solid #ffea00; width:50%;}
 
 .a {color: #000;
@@ -48,11 +65,6 @@ a {
   }
 
   
-  /* #text-flicker-in-glow {
-    -webkit-animation: text-flicker-in-glow 4s linear infinite both;
-            animation: text-flicker-in-glow 4s linear infinite both;
-} */
-
   .kedap-kedip {
     animation: blink 1s infinite;
   }
