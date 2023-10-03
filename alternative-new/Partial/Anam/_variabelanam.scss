@@ -1,0 +1,9 @@
+$kuning : #ffc500;
+$putih : #ffffff;
+
+$fz-anam : 30px;
+@mixin anam {
+    font-size: $fz-anam;
+    color: $putih;
+    background-color: $kuning;
+}

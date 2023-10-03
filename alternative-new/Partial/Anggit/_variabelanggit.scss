@@ -1,0 +1,11 @@
+$ukuranselamat : 100px;
+$ukuranisi: 16px;
+$warnafont1: #EADBC8;
+$warnafont2: #E4F1FF;
+$jenisfont1: 'Island Moments', cursive;
+$jenisfont2: 'Young Serif', serif;
+
+@mixin warna-bg {
+    border: 2px solid white;
+    opacity: 3;
+}
