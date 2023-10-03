@@ -1,0 +1,17 @@
+@import 'variabelsbima';
+
+@mixin style-text {
+  color: $warna1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#text-aja1 {
+  @include style-text;
+}
+
+#text-aja2 {
+  color: $author;
+}
+
+
+
