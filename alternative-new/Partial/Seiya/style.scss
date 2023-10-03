@@ -1,0 +1,13 @@
+@import 'variabelseiya';
+@import 'styles';
+
+.teks-about{
+    text-shadow: $sadhowteks;
+    color: $seiya1;
+    font-size: $fontsize;
+    animation: $animasi;
+}
+
+#border{
+    @include border;
+}
