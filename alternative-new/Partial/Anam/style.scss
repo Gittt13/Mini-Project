@@ -7,3 +7,33 @@
 .anam-fz{
     @include anam;
 }
+
+// .color-putih{
+//     color: $biru;
+//     background-color: $hijau;
+// }
+// @if $biru == #3766e7{
+//     color: $biru;
+// }@else{
+//     color: $hijau;
+// }
+
+@mixin size-width($size, $is-failed: false) {
+    font-weight: $size;
+
+    @if $is-failed {
+        color: $kuning;
+    }
+
+    @else {
+        color: #EADBC8;
+    }
+}
+
+.color-salah {
+    @include size-width(bold, $is-failed: true);
+}
+
+.color-benar {
+    @include size-width(bold, $is-failed: false);
+}
