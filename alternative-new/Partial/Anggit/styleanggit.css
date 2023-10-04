@@ -1,11 +1,9 @@
 .anggit2 {
-  color: #EADBC8;
   font-family: "Island Moments", cursive;
 }
 
 #anggit3 {
   font-size: 16px;
-  color: #E4F1FF;
   font-family: "Young Serif", serif;
 }
 
@@ -22,9 +20,24 @@
 
 .size-benar {
   font-size: 100px;
-  color: #EADBC8;
   opacity: 3;
   font-family: "Island Moments", cursive;
+}
+
+.size-text-beli-1 {
+  font-size: 12px;
+}
+
+.size-text-beli-2 {
+  font-size: 24px;
+}
+
+.size-text-beli-3 {
+  font-size: 36px;
+}
+
+.size-text-beli-4 {
+  font-size: 48px;
 }
 
 /* card shake */
