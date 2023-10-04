@@ -27,9 +27,18 @@
     box-shadow: 0 0 20px cyan;
   }
 }
+@-webkit-keyframes goyang {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
 .t-box-shadow:hover {
   box-shadow: 0 0 20px 0 white;
   animation: glow 0.2s ease-in-out infinite alternate;
+  /* animation: goyang 0.5s ease-in-out infinite alternate; */
 }
 
 .space-evenly {
