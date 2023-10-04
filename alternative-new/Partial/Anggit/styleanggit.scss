@@ -2,7 +2,7 @@
 
 
 .anggit2 {
-font-size: $ukuranselamat;
+// font-size: $ukuranselamat;
 color: $warnafont1;
 font-family: $jenisfont1;
 }
@@ -16,6 +16,44 @@ font-family: $jenisfont1;
 .bg-anggit {
     @include warna-bg;
 }
+
+@mixin size-width($size-selamat, $is-failed: false) {
+    font-size: $size-selamat;
+
+    @if $is-failed {
+      color: red;
+      opacity: 5;
+    } @else {
+      color: #EADBC8; 
+      opacity: 3;
+      font-family: "Island Moments", cursive;
+    }
+}
+
+.size-salah {
+  @include size-width(60px, $is-failed: true);
+}
+.size-benar {
+  @include size-width(100px, $is-failed: false);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* card shake */
 .jello-horizontal {

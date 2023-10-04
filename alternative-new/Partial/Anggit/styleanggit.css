@@ -1,5 +1,4 @@
 .anggit2 {
-  font-size: 100px;
   color: #EADBC8;
   font-family: "Island Moments", cursive;
 }
@@ -13,6 +12,19 @@
 .bg-anggit {
   border: 2px solid white;
   opacity: 3;
+}
+
+.size-salah {
+  font-size: 60px;
+  color: red;
+  opacity: 5;
+}
+
+.size-benar {
+  font-size: 100px;
+  color: #EADBC8;
+  opacity: 3;
+  font-family: "Island Moments", cursive;
 }
 
 /* card shake */
