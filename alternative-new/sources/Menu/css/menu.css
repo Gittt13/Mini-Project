@@ -150,6 +150,16 @@ body {
     transform: scale(0.9);
 }
 /* Makanan */
+@media (max-width: 1180px) {
+  .cards-makanan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cards-makanan .kartu {
+    margin-bottom: 2rem;
+  }
+}
 @media (max-width: 768px) {
     .cards-makanan .kartu {
       width: calc(50% - 1rem); /* Mengatur lebar kartu agar 2 kartu masuk dalam satu baris */
@@ -189,6 +199,7 @@ body {
     align-content: center;
   }
 }
+
 
 /* text */
   #text-flicker-in-glow {
