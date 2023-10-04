@@ -1,3 +1,7 @@
+.f-box-shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
 @-webkit-keyframes glow {
   from {
     box-shadow: 0 0 10px red;
@@ -6,18 +10,15 @@
     box-shadow: 0 0 20px greenyellow;
   }
 }
-.f-box-shadow .cards-makanan {
-  justify-content: space-evenly;
-}
-.f-box-shadow .cards-makanan .kartu {
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: 0.1s;
-}
-.f-box-shadow .cards-makanan .kartu:hover {
+.f-box-shadow:hover {
   box-shadow: 0 0 20px 0 white;
   animation: glow 0.2s ease-in-out infinite alternate;
 }
 
+.t-box-shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
 @-webkit-keyframes glow {
   from {
     box-shadow: 0 0 10px red;
@@ -26,16 +27,13 @@
     box-shadow: 0 0 20px cyan;
   }
 }
-.t-box-shadow .cards-makanan {
-  justify-content: space-evenly;
-}
-.t-box-shadow .cards-makanan .kartu {
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: 0.1s;
-}
-.t-box-shadow .cards-makanan .kartu:hover {
+.t-box-shadow:hover {
   box-shadow: 0 0 20px 0 white;
   animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
 }
 
 .gede-huruf-1 {

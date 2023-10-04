@@ -11,16 +11,11 @@
                 box-shadow: $bayangan-grn-yellow;
             }
         }
-        .cards-makanan {
-            justify-content: space-evenly;
-            .kartu {
-                background-color: $bg-kartu;
-                transition: 0.1s;
-                &:hover {
-                    box-shadow: $bayangan;
-                    animation: glow 0.2s ease-in-out infinite alternate;
-                }
-            }
+        background-color: $bg-kartu;
+        transition: 0.1s;
+        &:hover {
+            box-shadow: $bayangan;
+            animation: glow 0.2s ease-in-out infinite alternate;
         }
     } @else {
         @-webkit-keyframes glow {
@@ -31,16 +26,11 @@
                 box-shadow: $bayangan-cyan;
             }
         }
-        .cards-makanan {
-            justify-content: space-evenly;
-            .kartu {
-                background-color: $bg-kartu;
-                transition: 0.1s;
-                &:hover {
-                    box-shadow: $bayangan;
-                    animation: glow 0.2s ease-in-out infinite alternate;
-                }
-            }
+        background-color: $bg-kartu;
+        transition: 0.1s;
+        &:hover {
+            box-shadow: $bayangan;
+            animation: glow 0.2s ease-in-out infinite alternate;
         }
     }
 }
@@ -51,6 +41,10 @@
 
 .t-box-shadow {
     @include animasi($box-shadows:false);
+}
+
+.space-evenly {
+    justify-content: $card-advanced;
 }
 
 // Perulangan for
