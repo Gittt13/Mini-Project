@@ -1,0 +1,57 @@
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 10px red;
+  }
+  to {
+    box-shadow: 0 0 20px greenyellow;
+  }
+}
+.f-box-shadow .cards-makanan {
+  justify-content: space-evenly;
+}
+.f-box-shadow .cards-makanan .kartu {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
+.f-box-shadow .cards-makanan .kartu:hover {
+  box-shadow: 0 0 20px 0 white;
+  animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 10px red;
+  }
+  to {
+    box-shadow: 0 0 20px cyan;
+  }
+}
+.t-box-shadow .cards-makanan {
+  justify-content: space-evenly;
+}
+.t-box-shadow .cards-makanan .kartu {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
+.t-box-shadow .cards-makanan .kartu:hover {
+  box-shadow: 0 0 20px 0 white;
+  animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+.gede-huruf-1 {
+  font-size: 12px;
+}
+
+.gede-huruf-2 {
+  font-size: 24px;
+}
+
+.gede-huruf-3 {
+  font-size: 36px;
+}
+
+.gede-huruf-4 {
+  font-size: 48px;
+}
+
+/*# sourceMappingURL=box-shadow.css.map */
