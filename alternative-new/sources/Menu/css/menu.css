@@ -158,6 +158,38 @@ body {
     }
   }
 
+@media (max-width: 667px) {
+  .cards-makanan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    size: calc(20% - 1rem);
+  }
+  .cards-makanan .kartu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 230px;
+  }
+  .cards-makanan .kartu .keterangan .nama-food {
+    font-size: small;
+  }
+  .cards-makanan .kartu .keterangan .jumlah input {
+    width: 20px;
+    height: 5px;
+    align-self: center;
+  }
+  .cards-makanan .kartu .keterangan .jumlah {
+    padding: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
 /* text */
   #text-flicker-in-glow {
     -webkit-animation: text-flicker-in-glow 4s linear infinite both;
