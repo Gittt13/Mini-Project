@@ -133,3 +133,12 @@ section {
       margin-bottom: 1rem; / Jarak antara kartu */
     }
   }
+.teks {
+     color: goldenrod;
+     transition: 0.5s;
+ }
+    
+.teks:hover {
+     color: white;
+    transition: 0.5s;
+ }
