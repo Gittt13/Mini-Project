@@ -103,7 +103,7 @@ body {
 /* Gambar Bakso */
 
 .cards-makanan .kartu .keterangan .nama-food {
-    color: white;
+    /* color: white; */
 }
 .cards-makanan .kartu .keterangan .jumlah {
     padding: 0.5rem;
