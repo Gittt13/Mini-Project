@@ -1,0 +1,41 @@
+@import 'variabelseiya';
+@import 'styles';
+
+.teks-about{
+    text-shadow: $sadhowteks;
+    color: $seiya1;
+    font-size: $fontsize;
+    animation: $animasi;
+}
+
+#border{
+    @include border;
+}
+/*
+@mixin txt-menu ($warna: false) {
+    @if $warna{
+        color: rgb(232, 124, 0);
+    } @else {
+        color: green;
+    }
+}
+.judulmenu{
+    @include txt-menu($warna: )
+}
+*/
+@mixin txt($ukuran, $warna: false) {
+    font-size :$ukuran;
+
+    @if $warna  {
+        color: $oren;
+    }
+    @else {
+        color: yellow;
+    }
+}
+.menu-benar {
+    @include txt(15px, $warna: true);
+}
+.menu-salah {
+    @include txt(17px, $warna: false)
+}

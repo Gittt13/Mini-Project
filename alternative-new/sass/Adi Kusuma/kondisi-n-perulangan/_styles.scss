@@ -1,0 +1,55 @@
+@import 'variables';
+
+
+@mixin animasi($box-shadows: false) {
+    @if $box-shadows {
+        @-webkit-keyframes glow {
+            from {
+                box-shadow: $bayangan-merah;
+            }
+            to {
+                box-shadow: $bayangan-grn-yellow;
+            }
+        }
+        background-color: $bg-kartu;
+        transition: 0.1s;
+        &:hover {
+            box-shadow: $bayangan;
+            animation: glow 0.2s ease-in-out infinite alternate;
+        }
+    } @else {
+        @-webkit-keyframes glow {
+            from {
+                box-shadow: $bayangan-merah;
+            }
+            to {
+                box-shadow: $bayangan-cyan;
+            }
+        }
+        background-color: $bg-kartu;
+        transition: 0.1s;
+        &:hover {
+            box-shadow: $bayangan;
+            animation: glow 0.2s ease-in-out infinite alternate;
+        }
+    }
+}
+
+.f-box-shadow {
+    @include animasi($box-shadows:true);
+}
+
+.t-box-shadow {
+    @include animasi($box-shadows:false);
+}
+
+.space-evenly {
+    justify-content: $card-advanced;
+}
+
+// Perulangan for
+@for $cuy from 1 through 4 {
+    .gede-huruf-#{$cuy} {
+        font-size: 12px * $cuy;
+    } 
+}
