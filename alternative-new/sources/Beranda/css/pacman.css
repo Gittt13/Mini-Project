@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: right;
     /* background: #222; */
-    height: 20vh;
+    height: 30vh;
   }
   
   .container1 {
@@ -11,8 +11,8 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 15vh;
-    width: 30%;
+    height: 11vh;
+    width: 36%;
   }
   
   .pacman {
