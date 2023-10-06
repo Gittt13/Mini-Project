@@ -22,20 +22,24 @@ section {
 .makanan {
     padding: 2rem;
 }
-.cards-makanan {
-    display: flex;
+.makanan .cards-makanan {
     flex-wrap: wrap;
-    justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    gap: 1rem;
-    overflow-x: auto;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
-.cards-makanan .kartu {
+.makanan .cards-makanan .kartu {
     border-radius: 20px;
     border: 3px solid white;
     width: 200px;
     max-height: 100%;
+    box-sizing: border-box;
 }
 .cards-makanan .kartu .keterangan {
     padding: 1rem;

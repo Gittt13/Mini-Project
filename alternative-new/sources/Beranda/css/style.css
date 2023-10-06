@@ -1,14 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-    background-image: url(../../../assets/images/Lain-lain/bg-bakso.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    width: 100%;  
-    /* font-family: sans-serif; */
-    /* font-family: 'Island Moments', cursive; */
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+  background-image: url(/alternative-new/assets/images/Lain-lain/bg-bakso.png);
+  background-color: #191919;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
   }
   /* Lingkaran */
 .dot1 {

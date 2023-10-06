@@ -33,9 +33,10 @@ body {
 .cards-makanan {
     display: flex;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    gap: 1rem;
+    margin: 5%;
+    margin-top: 0;
+    padding-bottom: 2rem;
+    gap: 3rem;
     overflow-x: auto;
 }
 .cards-makanan .kartu {

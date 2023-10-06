@@ -23,13 +23,19 @@ section {
     padding: 2rem;
 }
 .cards-makanan {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    overflow-x: auto;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    gap: 2rem;
+    padding: 1rem;
 }
 .cards-makanan .kartu {
+    box-sizing: border-box;
     border-radius: 20px;
     border: 3px solid white;
     width: 200px;
