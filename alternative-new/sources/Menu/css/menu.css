@@ -20,6 +20,11 @@ body {
 }
 /* Title Menu */
 
+.harga {
+  font-size: 13px;
+  color: #ffffff; /* Warna harga yang sesuai */
+  margin-top: 5px;
+}
 
 /* Makanan */
 .makanan {
@@ -114,6 +119,11 @@ body {
     max-width: 100%;
     gap: 0.5rem;
 }
+
+.nama-food {
+  color:rgb(255, 255, 0);
+}
+
 .cards-makanan .kartu .keterangan .jumlah input {
     display: flex;
     justify-content: center;
