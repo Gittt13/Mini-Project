@@ -111,6 +111,8 @@ $ukuran-text-beli: 12px;
 
 .animate-image {
   transition: transform 0.5s ease;
+  align-items: center;
+  align-content: center;
 }
 
 .animate-image:hover {
