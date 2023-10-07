@@ -1,4 +1,4 @@
-@import 'var';
+@import 'variable-menu';
 
 @mixin indeks($idx) {
     z-index: $idx * 1000;

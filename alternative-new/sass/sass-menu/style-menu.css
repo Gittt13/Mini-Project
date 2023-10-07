@@ -1,5 +1,5 @@
 .sticky-nav {
-  z-index: 100;
+  z-index: 10000;
   position: sticky;
 }
 
@@ -7,4 +7,4 @@
   color: #F4F4F4;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-menu.css.map */

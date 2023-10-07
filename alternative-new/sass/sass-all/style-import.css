@@ -1,0 +1,270 @@
+.f-box-shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 10px red;
+  }
+  to {
+    box-shadow: 0 0 20px greenyellow;
+  }
+}
+.f-box-shadow:hover {
+  box-shadow: 0 0 20px 0 white;
+  animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+.t-box-shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 10px red;
+  }
+  to {
+    box-shadow: 0 0 20px cyan;
+  }
+}
+.t-box-shadow:hover {
+  box-shadow: 0 0 20px 0 white;
+  animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.gede-huruf-1 {
+  font-size: 12px;
+}
+
+.gede-huruf-2 {
+  font-size: 24px;
+}
+
+.gede-huruf-3 {
+  font-size: 36px;
+}
+
+.gede-huruf-4 {
+  font-size: 48px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: orange;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+p {
+  color: #191919;
+}
+
+#teks-bawah {
+  text-align: justify;
+  font-size: 17px;
+  margin: 1rem;
+}
+
+#font-judul {
+  font-size: 40px;
+}
+
+.tentang-kami {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.txt-seiya:nth-child(1) {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.txt-seiya:nth-child(2) {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.txt-seiya:nth-child(3) {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.txt-seiya:nth-child(4) {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.txt-seiya:nth-child(5) {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.txt-seiya:nth-child(6) {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contoh-if {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.anam-color {
+  color: #ffffff;
+  background-color: #ffc500;
+}
+
+.anam-fz {
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #ffc500;
+}
+
+.color-salah {
+  font-weight: bold;
+  color: #ffc500;
+}
+
+.color-benar {
+  font-weight: bold;
+  color: #EADBC8;
+}
+
+.anggit2 {
+  font-family: "Island Moments", cursive;
+}
+
+#anggit3 {
+  font-size: 16px;
+  font-family: "Young Serif", serif;
+}
+
+.bg-anggit {
+  border: 2px solid white;
+  opacity: 3;
+}
+
+.size-salah {
+  font-size: 60px;
+  color: red;
+  opacity: 5;
+}
+
+.size-benar {
+  font-size: 100px;
+  opacity: 3;
+  font-family: "Island Moments", cursive;
+}
+
+.size-text-beli-1 {
+  font-size: 12px;
+}
+
+.size-text-beli-2 {
+  font-size: 24px;
+}
+
+.size-text-beli-3 {
+  font-size: 36px;
+}
+
+.size-text-beli-4 {
+  font-size: 48px;
+}
+
+#text-aja1 {
+  color: #E21818;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#text-aja2 {
+  color: #FF6000;
+}
+
+.teks-about {
+  text-shadow: 2px 2px 4px rgba(22, 149, 22, 0.5);
+  color: red;
+  font-size: 50px;
+  animation: blink 1s infinite;
+}
+
+#border {
+  border: 1px solid black;
+}
+
+.menu-benar {
+  font-size: 15px;
+  color: orange;
+}
+
+.menu-salah {
+  font-size: 17px;
+  color: yellow;
+}
+
+/*# sourceMappingURL=style-import.css.map */

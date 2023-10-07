@@ -1,3 +1,4 @@
+// Bagian Adi
 @import 'variables';
 
 
@@ -52,4 +53,36 @@
     .gede-huruf-#{$cuy} {
         font-size: 12px * $cuy;
     } 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: $jingga;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+p {
+    color: $hitam;
+}
+
+
+
+// Bagian Seiya
+#teks-bawah{
+    text-align: justify;
+    font-size: 17px;
+    margin: 1rem;
+}
+
+#font-judul{
+    font-size: 40px;
 }
