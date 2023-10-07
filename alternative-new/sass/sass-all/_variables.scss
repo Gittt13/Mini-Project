@@ -86,10 +86,10 @@ $text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 
 // Bagian Seiya
-$seiya1: red;
-$sadhowteks: 2px 2px 4px rgba(22, 149, 22, 0.5);
+$seiya1: rgb(239, 107, 0);
+$sadhowteks: 2px 4px 4px rgba(0, 0, 0, 0.5);
 $fontsize: 50px;
-$animasi: blink 1s infinite;
+$animasi: blink 1.5s infinite;
 $oren: orange;
 @mixin border{
     border: 1px solid black;
