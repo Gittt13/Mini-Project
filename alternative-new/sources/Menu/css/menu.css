@@ -1,5 +1,5 @@
 section {
-    background-color: rgba(0, 0, 0, 0.379);
+  background-color: rgba(0, 0, 0, 0.379);
 }
 body {
   max-height: 100%;
@@ -7,16 +7,16 @@ body {
 
 /* Title Menu */
 .title-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .title-menu .txt-menu {
-    margin: 2rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 /* Title Menu */
 
@@ -28,137 +28,137 @@ body {
 
 /* Makanan */
 .makanan {
-    padding: 2rem;
+  padding: 2rem;
 }
 .cards-makanan {
-    display: flex;
-    justify-content: space-between;
-    margin: 5%;
-    margin-top: 0;
-    padding-bottom: 2rem;
-    gap: 3rem;
-    overflow-x: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+  margin-top: 0;
+  padding-bottom: 2rem;
+  gap: 3rem;
+  overflow-x: auto;
 }
 .cards-makanan .kartu {
-    border-radius: 20px;
-    border: 3px solid white;
-    width: 200px;
-    max-height: 100%;
+  border-radius: 20px;
+  border: 3px solid white;
+  width: 200px;
+  max-height: 100%;
 }
 .cards-makanan .kartu .keterangan {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0;
-    align-items: center;
-    justify-content: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
 }
 .cards-makanan .kartu .tampil-image-menu {
-    border-radius: 20px 20px 0 0;
-    /* background-image: url('beranak.jpeg'); */
-    background-size: cover;
-    max-width: 100%;
-    height: 150px;
+  border-radius: 20px 20px 0 0;
+  /* background-image: url('beranak.jpeg'); */
+  background-size: cover;
+  max-width: 100%;
+  height: 150px;
 }
 /* Gambar Bakso */
 .image-bakso-beranak {
-    background-image: url(../../../assets/images/Makanan/Bakso/bakso-beranak.jpeg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bakso-beranak.jpeg);
 }
 .image-bakso-super {
-    background-image: url(../../../assets/images/Makanan/Bakso/bakso-super.jpeg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bakso-super.jpeg);
 }
 .image-bakso-daging {
-    background-image: url(../../../assets/images/Makanan/Bakso/bks-daging.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bks-daging.jpg);
 }
 .image-bakso-spesial {
-    background-image: url(../../../assets/images/Makanan/Bakso/bakso-spesial.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bakso-spesial.jpg);
 }
 .image-bakso-telur {
-    background-image: url(../../../assets/images/Makanan/Bakso/bakso-telur.jpeg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bakso-telur.jpeg);
 }
 .image-bakso-mercon {
-    background-image: url(../../../assets/images/Makanan/Bakso/Bakso-Mercon.jpeg);
+  background-image: url(../../../assets/images/Makanan/Bakso/Bakso-Mercon.jpeg);
 }
 .image-bakso-malang {
-    background-image: url(../../../assets/images/Makanan/Bakso/bakso-malang.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bakso-malang.jpg);
 }
 .image-bakso-tetelan {
-    background-image: url(../../../assets/images/Makanan/Bakso/bakso-tetelan.jpeg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bakso-tetelan.jpeg);
 }
 .image-bakso-gepeng {
-    background-image: url(../../../assets/images/Makanan/Bakso/bakso-gepeng.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/bakso-gepeng.jpg);
 }
 .image-bakso-bakar {
-    background-image: url(../../../assets/images/Makanan/Bakso/Bakso-Bakar.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/Bakso-Bakar.jpg);
 }
 .image-mie-ayam-bakso-kecil {
-    background-image: url(../../../assets/images/Makanan/Bakso/mie-ayam-bakso-kecil.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/mie-ayam-bakso-kecil.jpg);
 }
 .image-mie-ayam-bakso-telur {
-    background-image: url(../../../assets/images/Makanan/Bakso/mie-ayam-bakso-telur.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/mie-ayam-bakso-telur.jpg);
 }
 .image-mie-ayam-bakso-daging {
-    background-image: url(../../../assets/images/Makanan/Bakso/mie-ayam-bakso-daging.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/mie-ayam-bakso-daging.jpg);
 }
 .image-mie-ayam-bakso-mercon {
-    background-image: url(../../../assets/images/Makanan/Bakso/image-mie-ayam-bakso-mercon.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/image-mie-ayam-bakso-mercon.jpg);
 }
 .image-mie-ayam-bakso-super {
-    background-image: url(../../../assets/images/Makanan/Bakso/image-mie-ayam-bakso-super.jpg);
+  background-image: url(../../../assets/images/Makanan/Bakso/image-mie-ayam-bakso-super.jpg);
 }
 /* Gambar Bakso */
 
 .cards-makanan .kartu .keterangan .nama-food {
-    /* color: white; */
+  /* color: white; */
 }
 .cards-makanan .kartu .keterangan .jumlah {
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    gap: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 0.5rem;
 }
 
 .nama-food {
-  color:rgb(255, 255, 0);
+  color: rgb(255, 255, 0);
 }
 
 .cards-makanan .kartu .keterangan .jumlah input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    border: none;
-    border-radius: 100px;
-    width: 50px;
-    padding: 15px;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  border: none;
+  border-radius: 100px;
+  width: 50px;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 .cards-makanan .kartu .keterangan .jumlah button {
-    color: white;
-    background: none;
-    width: 20px;
-    height: 20px;
-    border: none;
-    transition: 0.1s;
+  color: white;
+  background: none;
+  width: 20px;
+  height: 20px;
+  border: none;
+  transition: 0.1s;
 }
 .cards-makanan .kartu .keterangan .jumlah button:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 .cards-makanan .kartu .tombol-beli {
-    background-color: green;
-    color: white;
-    border: none;
-    padding: 0.5rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 100px;
-    transition: 0.2s;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
+  transition: 0.2s;
 }
 .cards-makanan .kartu .tombol-beli:hover {
-    transform: scale(0.9);
+  transform: scale(0.9);
 }
 /* Makanan */
 @media (max-width: 1180px) {
@@ -172,12 +172,12 @@ body {
   }
 }
 @media (max-width: 768px) {
-    .cards-makanan .kartu {
-      width: calc(50% - 1rem); /* Mengatur lebar kartu agar 2 kartu masuk dalam satu baris */
-      margin-bottom: 1rem; 
-      /* Jarak antara kartu */
-    }
+  .cards-makanan .kartu {
+    width: calc(50% - 1rem); /* Mengatur lebar kartu agar 2 kartu masuk dalam satu baris */
+    margin-bottom: 1rem;
+    /* Jarak antara kartu */
   }
+}
 
 @media (max-width: 667px) {
   .cards-makanan {
@@ -211,268 +211,11 @@ body {
   }
 }
 
-
-/* text */
-  #text-flicker-in-glow {
-    -webkit-animation: text-flicker-in-glow 4s linear infinite both;
-    animation: text-flicker-in-glow 4s linear infinite both;
-  }
-  
-  @-webkit-keyframes text-flicker-in-glow {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    10.1% {
-      opacity: 1;
-      text-shadow: none;
-    }
-    10.2% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    20% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    20.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
-    }
-    20.6% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    30% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    30.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    30.5% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    30.6% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    45% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    45.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    50% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    55% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    55.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    57% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    57.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
-    }
-    60% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
-    }
-    60.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    65% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    65.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    75% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    75.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    77% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    77.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    85% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    85.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    86% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    86.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    100% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-  }
-  @keyframes text-flicker-in-glow {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    10.1% {
-      opacity: 1;
-      text-shadow: none;
-    }
-    10.2% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    20% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    20.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
-    }
-    20.6% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    30% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    30.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    30.5% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    30.6% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    45% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    45.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    50% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    55% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
-    }
-    55.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    57% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    57.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
-    }
-    60% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
-    }
-    60.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    65% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    65.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    75% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    75.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    77% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    77.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    85% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    85.1% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    86% {
-      opacity: 0;
-      text-shadow: none;
-    }
-    86.1% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-    100% {
-      opacity: 1;
-      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
-    }
-  }
-  .teks{
-    color: goldenrod;
-    transition: 0.5s;
-  }
-  .teks:hover{
-    color: white;
-    transition: 0.5s;
-  }
+.teks {
+  color: goldenrod;
+  transition: 0.5s;
+}
+.teks:hover {
+  color: white;
+  transition: 0.5s;
+}

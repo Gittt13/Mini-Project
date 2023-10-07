@@ -1,0 +1,79 @@
+.warna-anggit {
+  color: rgb(42, 60, 255);
+}
+
+.width-anggit {
+  font-size: 35px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #94a684;
+  font-family: "Lilita One", cursive;
+}
+
+.text-anggit {
+  font-family: "Pixelify Sans", cursive, "Fuggles", cursive, "Pacifico", cursive;
+}
+
+.warna-anggit {
+  color: white;
+}
+
+.selamat {
+  color: yellow;
+}
+
+.txt-seiya {
+  font-family: "lucida bright", lucida;
+  color: blue;
+}
+
+.text-seiya {
+  color: red;
+}
+
+.buatan-bima {
+  color: rgb(115, 255, 0);
+}
+
+.teks-bima {
+  color: #f6ffde;
+}
+
+.text-bima {
+  font-family: "Young Serif", serif;
+}
+
+.text-bima {
+  color: red;
+}
+
+.adi-color {
+  color: orange;
+}
+
+.width {
+  width: 150px;
+  letter-spacing: 10px;
+}
+
+.text-adi {
+  font-family: "Young Serif", serif;
+}
+
+.warna-adi {
+  color: #ff2e2e;
+}
+
+.nurul-color {
+  background-color: #2ca71c;
+}
+
+#color-anam {
+  color: #ffd64d;
+}
+
+.anam-edit {
+  border: 2px solid white;
+}
+
+/*# sourceMappingURL=style-text.css.map */
