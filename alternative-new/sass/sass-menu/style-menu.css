@@ -1,0 +1,10 @@
+.sticky-nav {
+  z-index: 10000;
+  position: sticky;
+}
+
+.tab-color {
+  color: #F4F4F4;
+}
+
+/*# sourceMappingURL=style-menu.css.map */

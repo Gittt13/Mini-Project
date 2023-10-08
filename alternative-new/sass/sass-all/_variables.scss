@@ -1,0 +1,96 @@
+// Bagian Adi
+$bg-kartu: rgba(0, 0, 0, 0.5);
+$bayangan: 0 0 20px 0 white;
+$bayangan-merah: 0 0 10px red;
+$bayangan-grn-yellow: 0 0 20px greenyellow;
+$bayangan-cyan: 0 0 20px cyan;
+$card-advanced: space-evenly;
+$jingga: orange;
+$hitam: #191919;
+$font: 50px;
+
+
+// Bagian Anam
+$kuning : #ffc500;
+$putih : #ffffff;
+$biru : #3766e7;
+$hijau : #1bc515;
+
+$fz-anam : 30px;
+@mixin anam {
+    font-size: $fz-anam;
+    color: $putih;
+    background-color: $kuning;
+}
+
+
+// Bagian Anggit
+$ukuranisi: 16px;
+// $ukuranselamat : 100px;
+// $warnafont1: #EADBC8;
+// $warnafont2: #E4F1FF;
+$jenisfont1: 'Island Moments', cursive;
+$jenisfont2: 'Young Serif', serif;
+
+
+@mixin warna-bg {
+    border: 2px solid white;
+    opacity: 3;
+}
+
+
+// Bagian Bima
+$warna1: #E21818;
+$warna2: #D6E8DB;
+$author:#FF6000;
+$background-color: #009688;
+$font-judul: Georgia, 'Times New Roman', Times, serif;
+$font-family: 'Montserrat', sans-serif;
+$text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+.tentang-kami {
+  font-family: $font-judul;
+  font-weight: bold;
+}
+
+@for $i from 1 through 6 {
+  .txt-seiya:nth-child(#{$i}) {
+    background-color: $background-color;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: $font-family;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: $text-shadow;
+  }
+}
+
+
+.contoh-if {
+  @if 1 + 1 == 2 {
+    background-color: #f44336;
+  } @else {
+    background-color: #03a9f4;
+  }
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: $font-family;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: $text-shadow;
+}
+
+
+// Bagian Seiya
+$seiya1: rgb(239, 107, 0);
+$sadhowteks: 2px 4px 4px rgba(0, 0, 0, 0.5);
+$fontsize: 50px;
+$animasi: blink 1.5s infinite;
+$oren: orange;
+@mixin border{
+    border: 0px solid black;
+}

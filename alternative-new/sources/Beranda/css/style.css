@@ -3,57 +3,41 @@
   padding: 0;
 }
 body {
-  background-image: url(/alternative-new/assets/images/Lain-lain/bg-bakso.png);
+  background-image: url(../../../assets/images/Lain-lain/bg-bakso.png);
   background-color: #191919;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-  }
-  /* Lingkaran */
-.dot1 {
-    padding: 2rem;
-    height: 45px;
-    width: 45px;
-    background-color: red;
-    border-radius: 50%;
-    text-align: center;
-    justify-content: center;
-    font: 900 19px/100% "Inter", sans-serif;
-    position: relative;
-    left: 185.56px;
-    top: -75px;
-    transform-origin: 0 0;
-    transform: rotate(27deg) scale(0.989, 1.01);
-    display: flex;
-  }
-
-.glow {
-    color: #fff;
-    text-align: center;
-    animation: glow 1s ease-in-out infinite alternate;
 }
-  
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 15px #e60073;
-    }
-  
-    to {
-      text-shadow: 0 0 10px #fff;
-    }
-  }
+/* Lingkaran */
+.dot1 {
+  padding: 2rem;
+  height: 45px;
+  width: 45px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  font: 900 19px/100% 'Inter', sans-serif;
+  position: relative;
+  left: 185.56px;
+  top: -75px;
+  transform-origin: 0 0;
+  transform: rotate(27deg) scale(0.989, 1.01);
+  display: flex;
+}
 
 h3 {
-    margin: 0;
-  }
+  margin: 0;
+}
 
 img {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
+}
 
 button:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 
 /* .section-1 {
     background-image: url('bg-bakso.png');
@@ -64,18 +48,17 @@ button:hover {
   } */
 
 .introduction {
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    padding: 1rem 5%;
-    color: white;
-  }
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 5%;
+  color: white;
+}
 
-  .introduction h1 {
-    width: 100%;
-    max-width: 100%;
-  }
-
+.introduction h1 {
+  width: 100%;
+  max-width: 100%;
+}
 
 /* Navbar */
 .navbar {
@@ -274,37 +257,36 @@ button:hover {
   margin-top: 0px;
 }
 
-
 /* Media untuk Tablet dan Mobile */
 @media (max-width: 992px) {
   /* Navbar */
   .navbar {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .menus {
-      margin-top: 1rem;
+    margin-top: 1rem;
   }
   .menus a {
-      margin: 10px;
+    margin: 10px;
   }
   .in-cari {
-      margin-top: 1rem;
+    margin-top: 1rem;
   }
   /* Card */
   .card {
-      justify-content: center;
+    justify-content: center;
   }
   .card-1 {
-      margin: 1rem;
+    margin: 1rem;
   }
   .bottom-content {
-      flex-direction: column-reverse;
-      align-items: center;
-      text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
   }
   .bottom-content button {
-      margin: 1rem 0;
+    margin: 1rem 0;
   }
 }

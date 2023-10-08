@@ -1,0 +1,140 @@
+// Bagian Adi
+@import 'import';
+@import 'variables';
+
+body {
+    background-color: #f1f1f1;
+}
+
+
+// Bagian Anam
+.anam-color{
+    color: $putih;
+    background-color: $kuning;
+}
+.anam-fz{
+    @include anam;
+}
+
+@mixin size-width($size, $is-failed: false) {
+    font-weight: $size;
+
+    @if $is-failed {
+        color: $kuning;
+    }
+
+    @else {
+        color: #EADBC8;
+    }
+}
+
+.color-salah {
+    @include size-width(bold, $is-failed: true);
+}
+
+.color-benar {
+    @include size-width(bold, $is-failed: false);
+}
+
+
+// Bagian Anggit
+.anggit2 {
+// font-size: $ukuranselamat;
+// color: $warnafont1;
+font-family: $jenisfont1;
+}
+
+#anggit3 {
+    font-size: $ukuranisi;
+    // color: $warnafont2;
+    font-family: $jenisfont2;
+}
+
+.bg-anggit {
+    @include warna-bg;
+}
+
+// percobaan if else
+@mixin size-width($size-selamat, $is-failed: false) {
+    font-size: $size-selamat;
+
+    @if $is-failed {
+      color: red;
+      opacity: 5;
+    } @else {
+      // color: #EADBC8; 
+      opacity: 3;
+      font-family: "Island Moments", cursive;
+    }
+}
+
+.size-salah {
+  @include size-width(60px, $is-failed: true);
+}
+.size-benar {
+  @include size-width(100px, $is-failed: false);
+}
+
+// percobaan for
+$ukuran-text-beli: 12px;
+@for $text-beli from 1 through 4 {
+  .size-text-beli-#{$text-beli} {
+    font-size: $ukuran-text-beli * $text-beli;
+  }
+}
+
+
+
+// Bagian Bima
+@mixin style-text {
+  color: $warna1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#text-aja1 {
+  @include style-text;
+}
+
+#text-aja2 {
+  color: $author;
+}
+
+
+
+// Bagian Seiya
+.teks-about{
+    text-shadow: $sadhowteks;
+    color: $seiya1;
+    font-size: $fontsize;
+    animation: $animasi;
+}
+
+.animate-image {
+  transition: transform 0.5s ease;
+  align-items: center;
+  align-content: center;
+}
+
+.animate-image:hover {
+  transform: scale(1.1); 
+}
+
+#border{
+    @include border;
+}
+@mixin txt($ukuran, $warna: false) {
+    font-size :$ukuran;
+
+    @if $warna  {
+        color: $oren;
+    }
+    @else {
+        color: yellow;
+    }
+}
+.menu-benar {
+    @include txt(15px, $warna: true);
+}
+.menu-salah {
+    @include txt(17px, $warna: false)
+}
