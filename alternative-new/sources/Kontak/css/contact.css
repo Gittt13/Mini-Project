@@ -101,7 +101,7 @@ a {
 /* STYLING FAQ */
 .accordion-button {
   background-color: #FFD700; 
-  color: green; 
+  color: black; 
   font-weight: bold; 
   font-size: 18px; 
   border: none; 
@@ -110,8 +110,8 @@ a {
 }
 
 .accordion-body {
-  background-color: green; 
-  color: white; 
+  background-color: black; 
+  color: yellow; 
   font-size: 16px; 
   padding: 15px; 
   border: none; 
@@ -122,12 +122,12 @@ ion-icon.color {
 }
 
 .accordion-button:hover {
-  background-color: #6cd806; 
-  color: green; 
+  background-color: white; 
+  color: black; 
 }
 
 .accordion-button:hover ion-icon.color {
-  color: white; 
+  color: yellowgreen; 
 }
 /* STYLING FAQ */
 
