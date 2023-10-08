@@ -24,17 +24,19 @@ section {
 }
 .cards-makanan {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    gap: 1rem;
     overflow-x: auto;
+    gap: 0rem;
 }
 .cards-makanan .kartu {
     border-radius: 20px;
     border: 3px solid white;
     width: 200px;
     max-height: 100%;
+    margin-right: 3rem;
 }
 .cards-makanan .kartu .keterangan {
     padding: 1rem;
