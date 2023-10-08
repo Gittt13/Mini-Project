@@ -43,15 +43,16 @@ body {
   }
 
   .teks-judul,h5 {
-    animation: blink 1.5s infinite;
-    color: #27005D; 
+    animation: blink 2s infinite;
+    color: black; 
+    text-shadow: 1px 1px 1px orange;
   
 }
-.text h2 {
+/* .text h2 {
   font-family: 'Montserrat', sans-serif;
   color: #27005D;
   font-size: 24px;
-}
+} */
 
 .text-bima:hover {
   color: rgb(123, 45, 67); 
