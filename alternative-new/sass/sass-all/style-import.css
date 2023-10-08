@@ -337,7 +337,7 @@ body {
 
 .teks-about {
   text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
-  color: rgb(239, 107, 0);
+  color: orange;
   font-size: 50px;
   animation: blink 1.5s infinite;
 }
