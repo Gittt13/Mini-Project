@@ -108,6 +108,10 @@ a {
   padding: 10px 15px; 
   text-align: left; 
 }
+.accordion-button:focus,
+.accordion-button:active {
+  color: black; /* Ganti warna teks ketika terbuka */
+}
 
 .accordion-body {
   background-color: black; 
@@ -122,13 +126,11 @@ ion-icon.color {
 }
 
 .accordion-button:hover {
-  background-color: white; 
+  background-color: yellow; 
   color: black; 
 }
 
-.accordion-button:hover ion-icon.color {
-  color: yellowgreen; 
-}
+
 /* STYLING FAQ */
 
 @-webkit-keyframes text-flicker-out-glow {
