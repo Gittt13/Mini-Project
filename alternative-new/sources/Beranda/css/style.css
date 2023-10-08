@@ -46,6 +46,17 @@ button:hover {
     background-position: 0 0 100px;
     position: sticky;
   } */
+@-webkit-keyframes text-shining {
+  form {
+    text-shadow: 0 0 30px red;
+  }
+  to {
+    text-shadow: 0 0 20px white;
+  }
+}
+.intro {
+  animation: text-shining 1s ease-in-out infinite alternate;
+}
 
 .introduction {
   justify-items: center;
