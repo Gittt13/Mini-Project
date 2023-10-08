@@ -268,6 +268,47 @@ button:hover {
   margin-top: 0px;
 }
 
+@-webkit-keyframes alamat-glow {
+  form {
+    text-shadow: 0 0 15px aquamarine;
+    color: white;
+  }
+  to {
+    text-shadow: 0 0 15px white;
+    color: orange;
+  }
+}
+.bottom-contents {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-contents .bottom-alamat {
+  display: flex; 
+  width: 200px;
+  font-size: 11px;
+  font-family: 'Croissant One', cursive; 
+  margin-bottom: 0; 
+  width: 40%; 
+  text-align: left; 
+  align-self: center; 
+  max-width: 40%; 
+  animation: alamat-glow 1s ease-in-out infinite alternate; 
+  color: white;
+}
+.bottom-contents .alamat-kedua {
+  display: none;
+  font-size: 11px;
+  font-family: 'Croissant One', cursive; 
+  margin-bottom: 0; 
+  width: 40%; 
+  text-align: left; 
+  align-self: center; 
+  max-width: 40%; 
+  animation: alamat-glow 1s ease-in-out infinite alternate; 
+  color: white;
+}
+
+
 /* Media untuk Tablet dan Mobile */
 @media (max-width: 992px) {
   /* Navbar */
@@ -299,5 +340,97 @@ button:hover {
   }
   .bottom-content button {
     margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  * {
+  }
+  .bottom-contents {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bottom-contents .bottom-alamat {
+    display: none;
+  }
+  .bottom-contents .alamat-kedua {
+    display: flex;
+    max-width: 100% !important;
+    width: max-content !important;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 412px) {
+  * {
+    overflow-x: hidden;
+  }
+  .bottom-contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-contents .bottom-alamat {
+    display: none;
+  }
+  .bottom-contents .alamat-kedua {
+    display: flex;
+    max-width: 100% !important;
+    width: max-content !important;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  * {
+    overflow-x: hidden;
+  }
+  .bottom-contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-contents .bottom-alamat {
+    display: none;
+  }
+  .bottom-contents .alamat-kedua {
+    display: flex;
+    max-width: 100% !important;
+    width: max-content !important;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  * {
+    overflow-x: hidden;
+  }
+  .bottom-contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-contents .bottom-alamat {
+    display: none;
+  }
+  .bottom-contents .alamat-kedua {
+    display: flex;
+    max-width: 100% !important;
+    width: max-content !important;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .bottom-contents {
+    margin: auto;
+  }
+  .bottom-contents a {
+    max-width: 100% !important;
+    display: none;
   }
 }
