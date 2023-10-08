@@ -18,13 +18,14 @@ body {
   border-radius: 50%;
   text-align: center;
   justify-content: center;
-  font: 900 19px/100% 'Inter', sans-serif;
+  font: 900 20px/100% 'Inter', sans-serif;
   position: relative;
   left: 185.56px;
   top: -75px;
   transform-origin: 0 0;
   transform: rotate(27deg) scale(0.989, 1.01);
   display: flex;
+  box-shadow: -5px 0px 15px 0 black;
 }
 
 h3 {
@@ -306,6 +307,7 @@ button:hover {
   max-width: 40%; 
   animation: alamat-glow 1s ease-in-out infinite alternate; 
   color: white;
+  padding-top: 2rem;
 }
 
 
@@ -343,53 +345,33 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 540px) {
-  * {
-  }
+@media screen and (max-width: 912px) {
   .bottom-contents {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .bottom-contents .bottom-alamat {
-    display: none;
-  }
-  .bottom-contents .alamat-kedua {
-    display: flex;
-    max-width: 100% !important;
-    width: max-content !important;
-    text-align: center;
     padding: 2rem;
-    padding-bottom: 2rem;
   }
-}
-@media screen and (max-width: 412px) {
-  * {
-    overflow-x: hidden;
-  }
-  .bottom-contents {
-    display: flex;
-    flex-direction: column;
-  }
-  .bottom-contents .bottom-alamat {
-    display: none;
-  }
-  .bottom-contents .alamat-kedua {
-    display: flex;
-    max-width: 100% !important;
-    width: max-content !important;
-    text-align: center;
-    padding: 2rem;
-    padding-bottom: 2rem;
+  .bottom-contents a {
+    margin: 0;
   }
 }
 
-@media screen and (max-width: 414px) {
-  * {
-    overflow-x: hidden;
+@media screen and (max-width: 768px) {
+  .bottom-contents {
+    padding: 2rem;
   }
+  .bottom-contents a {
+    margin: 0;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 667px) {
   .bottom-contents {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .bottom-contents .bottom-alamat {
     display: none;
@@ -397,40 +379,18 @@ button:hover {
   .bottom-contents .alamat-kedua {
     display: flex;
     max-width: 100% !important;
-    width: max-content !important;
+    width: 100%;
     text-align: center;
-    padding: 2rem;
-    padding-bottom: 2rem;
   }
+}
+
+@media screen and (max-width: 540px) {
+  /* .bottom-contents {
+  } */
 }
 
 @media screen and (max-width: 280px) {
   * {
     overflow-x: hidden;
-  }
-  .bottom-contents {
-    display: flex;
-    flex-direction: column;
-  }
-  .bottom-contents .bottom-alamat {
-    display: none;
-  }
-  .bottom-contents .alamat-kedua {
-    display: flex;
-    max-width: 100% !important;
-    width: max-content !important;
-    text-align: center;
-    padding: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-
-@media screen and (max-width: 412px) {
-  .bottom-contents {
-    margin: auto;
-  }
-  .bottom-contents a {
-    max-width: 100% !important;
-    display: none;
   }
 }
