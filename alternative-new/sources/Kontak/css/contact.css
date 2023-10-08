@@ -98,6 +98,39 @@ a {
 	        animation: text-flicker-out-glow 2.5s linear infinite both;
 }
 
+/* STYLING FAQ */
+.accordion-button {
+  background-color: #FFD700; 
+  color: green; 
+  font-weight: bold; 
+  font-size: 18px; 
+  border: none; 
+  padding: 10px 15px; 
+  text-align: left; 
+}
+
+.accordion-body {
+  background-color: green; 
+  color: white; 
+  font-size: 16px; 
+  padding: 15px; 
+  border: none; 
+}
+
+ion-icon.color {
+  color: green;
+}
+
+.accordion-button:hover {
+  background-color: #6cd806; 
+  color: green; 
+}
+
+.accordion-button:hover ion-icon.color {
+  color: white; 
+}
+/* STYLING FAQ */
+
 @-webkit-keyframes text-flicker-out-glow {
     0% {
       opacity: 1;
