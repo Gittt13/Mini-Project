@@ -24,6 +24,7 @@
   .pacman::before, .pacman::after {
     position: absolute;
     top: -35px;
+    left: -15px;
     display: block;
     border-radius: 50%;
     content: "";
