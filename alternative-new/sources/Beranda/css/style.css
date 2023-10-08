@@ -159,11 +159,14 @@ button:hover {
   justify-items: center;
   max-height: 100%;
   transition: 0.3s;
+  animation: jello-horizontal 1s backwards;
 }
 
+
 .card-1:hover {
-  transform: scale(1.1);
+  transform: translateY(-7%) scale(1.1);
   box-shadow: 0 0 20px 0 white;
+  cursor: pointer;
 }
 
 .card-1 h3 {

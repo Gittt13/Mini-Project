@@ -1,7 +1,7 @@
 /* card shake */
 .jello-horizontal {
     -webkit-animation: jello-horizontal 1s both;
-    animation: jello-horizontal 1s both;
+    animation: jello-horizontal 1.5s both;
   }
   
   @-webkit-keyframes jello-horizontal {
