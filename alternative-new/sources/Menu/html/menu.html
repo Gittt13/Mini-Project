@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="../../../sass/text-button/style-text.css">
     <link rel="stylesheet" href="../../../sass/sass-all/style-import.css">
     <link rel="stylesheet" href="../../../sass/sass-menu/style-menu.css">
+
+    <!-- Script -->
+    <script src="/alternative-new/sources/Menu/js/f-btn.js"></script>
     
 </head> 
     <body>
@@ -88,10 +91,9 @@
                         <h4 class="nama-food" style="margin: 0;">Bakso Beranak</h4>
                         <div class="harga">Rp 30.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoBeranak-minBtn">-</button>
+                            <div class="baksoBeranak-columnInput">0</div>
+                            <button class="baksoBeranak-addBtn">+</button>
                         </div>
                     </div>
                 </div>
@@ -103,10 +105,9 @@
                         <h4 class="nama-food" style="margin: 0;">Bakso Super</h4>
                         <div class="harga">Rp 24.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoSuper-minBtn">-</button>
+                            <div class="baksoSuper-columnInput">0</div>
+                            <button class="baksoSuper-addBtn">+</button>
                         </div>
                     </div>
                 </div>
@@ -118,10 +119,9 @@
                         <h4 class="nama-food" style="margin: 0;">Bakso Daging</h4>
                         <div class="harga">Rp 18.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoDaging-minBtn">-</button>
+                            <div class="baksoDaging-columnInput">0</div>
+                            <button class="baksoDaging-addBtn">+</button>
                         </div>
                     </div>
                 </div>
@@ -133,10 +133,9 @@
                         <h4 class="nama-food r" style="margin: 0;">Bakso Special</h4>
                         <div class="harga">Rp 20.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoSpecial-minBtn">-</button>
+                            <div class="baksoSpecial-columnInput">0</div>
+                            <button class="baksoSpecial-addBtn">+</button>
                         </div>
                     </div>
                 </div>
@@ -148,10 +147,9 @@
                         <h4 class="nama-food menu-salah" style="margin: 0;">Bakso Telur</h4>
                         <div class="harga">Rp 18.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoTelur-minBtn">-</button>
+                            <div class="baksoTelur-columnInput">0</div>
+                            <button class="baksoTelur-addBtn">+</button>
                         </div>
                     </div>
                 </div>
@@ -163,10 +161,9 @@
                         <h4 class="nama-food menu-salah" style="margin: 0;">Bakso Mercon</h4>
                         <div class="harga">Rp 19.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoMercon-minBtn">-</button>
+                            <div class="baksoMercon-columnInput">0</div>
+                            <button class="baksoMercon-addBtn">+</button>
                         </div>
                     </div>
                 </div>
@@ -178,10 +175,9 @@
                         <h4 class="nama-food menu-salah" style="margin: 0;">Bakso Tetelan</h4>
                         <div class="harga">Rp 22.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoTetelan-minBtn">-</button>
+                            <div class="baksoTetelan-columnInput">0</div>
+                            <button class="baksoTetelan-addBtn">+</button>
                         </div>
                     </div>
                 </div>
@@ -193,17 +189,273 @@
                         <h4 class="nama-food menu-salah" style="margin: 0;">Bakso Bakar</h4>
                         <div class="harga">Rp 2.000</div>
                         <div class="jumlah">
-                            <button>-</button>
-                            <input type="number" placeholder="" style="text-align: center; justify-content: center;"
-                                maxlength="2">
-                            <button>+</button>
+                            <button class="baksoBakar-minBtn">-</button>
+                            <div class="baksoBakar-columnInput">0</div>
+                            <button class="baksoBakar-addBtn">+</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="checkout">
+            <button class="co">Tambahkan</button>
+            <div class="total"></div>
+        </div>
+
+        <style>
+            .rincian {
+                background-color: orange;
+                padding: 2rem;
+                gap: 1rem;
+                width: 50%;
+            }
+            .rincian h5 {
+                color: rgb(55, 55, 55);
+            }
+            .rincian .subtotal {
+                font-size: 50px;
+                color: #191919;
+                font-weight: bold;
+            }
+            .container-bottom {
+                display: flex;
+                background-color: orange;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+        <div class="container-bottom">
+            <div class="rincian">
+                <h5>Total Harga</h5>
+                <div class="subtotal">RP 0</div>
+            </div>
+            <button class="order">Beli</button>
+        </div>
     </section>
     <!-- Halaman -->
+
+    <script>
+        // Bakso Beranak
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoBeranakMinBtn = document.querySelector(".baksoBeranak-minBtn"); // Tombol untuk mengurangi
+        var baksoBeranakAddBtn = document.querySelector(".baksoBeranak-addBtn"); // Tombol untuk menambah
+        var baksoBeranakColumnInput = document.querySelector(".baksoBeranak-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoBeranakCount = 0;
+        // Menambahkan event listener untuk tombol mengurangi
+        baksoBeranakMinBtn.addEventListener("click", function() {
+        // Mengurangi nilai angka jika lebih besar dari 0
+        if (baksoBeranakCount > 0) {
+        baksoBeranakCount--;
+        }
+        // Memperbarui kolom input dengan nilai angka yang baru
+        baksoBeranakColumnInput.textContent = baksoBeranakCount;
+        });
+        
+        // Menambahkan event listener untuk tombol menambah
+        baksoBeranakAddBtn.addEventListener("click", function() {
+        // Menambah nilai angka
+        baksoBeranakCount++;
+        // Memperbarui kolom input dengan nilai angka yang baru
+        baksoBeranakColumnInput.textContent = baksoBeranakCount;
+        });
+        // Bakso Beranak
+
+
+        // Bakso Super
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoSuperMinBtn = document.querySelector(".baksoSuper-minBtn"); // Tombol untuk mengurangi
+        var baksoSuperAddBtn = document.querySelector(".baksoSuper-addBtn"); // Tombol untuk menambah
+        var baksoSuperColumnInput = document.querySelector(".baksoSuper-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoSuperCount = 0;
+        baksoSuperMinBtn.addEventListener("click", function() {
+        if (baksoSuperCount > 0) {
+        baksoSuperCount--;
+        }
+
+        baksoSuperColumnInput.textContent = baksoSuperCount;
+        });
+        
+        baksoSuperAddBtn.addEventListener("click", function() {
+        baksoSuperCount++;
+        baksoSuperColumnInput.textContent = baksoSuperCount;
+        });
+        // Bakso Super
+
+
+        // Bakso Daging
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoDagingMinBtn = document.querySelector(".baksoDaging-minBtn"); // Tombol untuk mengurangi
+        var baksoDagingAddBtn = document.querySelector(".baksoDaging-addBtn"); // Tombol untuk menambah
+        var baksoDagingColumnInput = document.querySelector(".baksoDaging-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoDagingCount = 0;
+        baksoDagingMinBtn.addEventListener("click", function() {
+        if (baksoDagingCount > 0) {
+        baksoDagingCount--;
+        }
+
+        baksoDagingColumnInput.textContent = baksoDagingCount;
+        });
+        
+        baksoDagingAddBtn.addEventListener("click", function() {
+        baksoDagingCount++;
+        baksoDagingColumnInput.textContent = baksoDagingCount;
+        });
+        // Bakso Daging
+
+
+        // Bakso Special
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoSpecialMinBtn = document.querySelector(".baksoSpecial-minBtn"); // Tombol untuk mengurangi
+        var baksoSpecialAddBtn = document.querySelector(".baksoSpecial-addBtn"); // Tombol untuk menambah
+        var baksoSpecialColumnInput = document.querySelector(".baksoSpecial-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoSpecialCount = 0;
+        baksoSpecialMinBtn.addEventListener("click", function() {
+        if (baksoSpecialCount > 0) {
+        baksoSpecialCount--;
+        }
+
+        baksoSpecialColumnInput.textContent = baksoSpecialCount;
+        });
+        
+        baksoSpecialAddBtn.addEventListener("click", function() {
+        baksoSpecialCount++;
+        baksoSpecialColumnInput.textContent = baksoSpecialCount;
+        });
+        // Bakso Special
+
+        // Bakso Telur
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoTelurMinBtn = document.querySelector(".baksoTelur-minBtn"); // Tombol untuk mengurangi
+        var baksoTelurAddBtn = document.querySelector(".baksoTelur-addBtn"); // Tombol untuk menambah
+        var baksoTelurColumnInput = document.querySelector(".baksoTelur-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoTelurCount = 0;
+        baksoTelurMinBtn.addEventListener("click", function() {
+        if (baksoTelurCount > 0) {
+        baksoTelurCount--;
+        }
+
+        baksoTelurColumnInput.textContent = baksoTelurCount;
+        });
+        
+        baksoTelurAddBtn.addEventListener("click", function() {
+        baksoTelurCount++;
+        baksoTelurColumnInput.textContent = baksoTelurCount;
+        });
+        // Bakso Telur
+
+
+        // Bakso Mercon
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoMerconMinBtn = document.querySelector(".baksoMercon-minBtn"); // Tombol untuk mengurangi
+        var baksoMerconAddBtn = document.querySelector(".baksoMercon-addBtn"); // Tombol untuk menambah
+        var baksoMerconColumnInput = document.querySelector(".baksoMercon-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoMerconCount = 0;
+        baksoMerconMinBtn.addEventListener("click", function() {
+        if (baksoMerconCount > 0) {
+        baksoMerconCount--;
+        }
+
+        baksoMerconColumnInput.textContent = baksoMerconCount;
+        });
+        
+        baksoMerconAddBtn.addEventListener("click", function() {
+        baksoMerconCount++;
+        baksoMerconColumnInput.textContent = baksoMerconCount;
+        });
+        // Bakso Mercon
+
+
+        // Bakso Tetelan
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoTetelanMinBtn = document.querySelector(".baksoTetelan-minBtn"); // Tombol untuk mengurangi
+        var baksoTetelanAddBtn = document.querySelector(".baksoTetelan-addBtn"); // Tombol untuk menambah
+        var baksoTetelanColumnInput = document.querySelector(".baksoTetelan-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoTetelanCount = 0;
+        baksoTetelanMinBtn.addEventListener("click", function() {
+        if (baksoTetelanCount > 0) {
+        baksoTetelanCount--;
+        }
+
+        baksoTetelanColumnInput.textContent = baksoTetelanCount;
+        });
+        
+        baksoTetelanAddBtn.addEventListener("click", function() {
+        baksoTetelanCount++;
+        baksoTetelanColumnInput.textContent = baksoTetelanCount;
+        });
+        // Bakso Tetelan
+
+
+        // Bakso Bakar
+        // Mendapatkan elemen-elemen yang dibutuhkan
+        var baksoBakarMinBtn = document.querySelector(".baksoBakar-minBtn"); // Tombol untuk mengurangi
+        var baksoBakarAddBtn = document.querySelector(".baksoBakar-addBtn"); // Tombol untuk menambah
+        var baksoBakarColumnInput = document.querySelector(".baksoBakar-columnInput"); // Kolom input untuk menampilkan angka
+        
+        // Menetapkan nilai awal angka sebagai 0
+        var baksoBakarCount = 0;
+        baksoBakarMinBtn.addEventListener("click", function() {
+        if (baksoBakarCount > 0) {
+        baksoBakarCount--;
+        }
+
+        baksoBakarColumnInput.textContent = baksoBakarCount;
+        });
+        
+        baksoBakarAddBtn.addEventListener("click", function() {
+        baksoBakarCount++;
+        baksoBakarColumnInput.textContent = baksoBakarCount;
+        });
+        // Bakso Bakar
+
+        // Total
+        // Harga
+        var hargaBaksoBeranak = 30000;
+        var hargaBaksoSuper = 24000;
+        var hargaBaksoDaging = 18000;
+        var hargaBaksoSpecial = 20000;
+        var hargaBaksoTelur = 18000;
+        var hargaBaksoMercon = 19000;
+        var hargaBaksoTetelan = 22000;
+        var hargaBaksoBakar = 2000;
+
+        var checkoutBtn = document.querySelector(".co"); // Tombol untuk checkout
+        var totalColumn = document.querySelector(".total"); // Kolom untuk menampilkan total
+        var subtotalColumn = document.querySelector(".subtotal"); // Kolom untuk menampilkan total
+        var orderButton = document.querySelector(".order");
+
+        
+        // Menambahkan event listener untuk tombol checkout
+        checkoutBtn.addEventListener("click", function() {
+          // Menghitung total angka dari semua kelas
+          var total = baksoBeranakCount + baksoSuperCount + baksoDagingCount + baksoSpecialCount + baksoTelurCount + baksoTetelanCount + baksoBakarCount + baksoMerconCount;
+          // Memperbarui kolom total dengan nilai yang baru
+          totalColumn.textContent = total + ' Pesanan';
+
+          var subtotal = (baksoBeranakCount * hargaBaksoBeranak) + (baksoSuperCount * hargaBaksoSuper) + (baksoDagingCount * hargaBaksoDaging) + (baksoSpecialCount * hargaBaksoSpecial) + (baksoTelurCount * hargaBaksoTelur) + (baksoTetelanCount * hargaBaksoTetelan) + (baksoBakarCount * hargaBaksoBakar);
+
+          subtotalColumn.textContent = 'RP ' + subtotal;
+        });
+
+        orderButton.addEventListener("click", function () {
+           alert('Anda melakukan pemesanan');
+        });
+        </script>
     </body>
 
 </html>
