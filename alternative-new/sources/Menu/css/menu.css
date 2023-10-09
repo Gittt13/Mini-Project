@@ -38,6 +38,7 @@ body {
   padding-bottom: 2rem;
   gap: 3rem;
   overflow-x: auto;
+  scroll-behavior: smooth;
 }
 .cards-makanan .kartu {
   border-radius: 20px;
