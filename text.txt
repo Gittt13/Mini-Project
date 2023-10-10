@@ -1,0 +1,8 @@
+Berikut adalah ringkasan laporan mingguan dari laporan harian yang peserta berikan:
+
+- Pada minggu ini, peserta bersama mentor melakukan kegiatan webinar yang membahas berbagai topik seputar website, SASS, dan Bootstrap.
+- Pada hari Senin, peserta mendapatkan review tugas project kelompok oleh mentor dan saran untuk menambahkan fitur pada website peserta. peserta juga mendapatkan penjelasan tentang responsifitas sebuah website melalui demo oleh mentor.
+- Pada hari Selasa, peserta belajar tentang SASS sebagai CSS, cara instalasi dan implementasinya pada sebuah website. peserta juga mendapatkan pengenalan tentang node JS dan cara instalasinya, serta explorasi tentang framework Bootstrap.
+- Pada hari Rabu, peserta belajar tentang variabel dan tipe data menggunakan SASS dan cara merubah tampilan style ke sass atau custom menggunakan template website yang sudah ada. peserta juga melakukan pengujian hasilnya.
+- Pada hari Kamis, peserta libur nasional.
+- Pada hari Jumat, peserta belajar tentang fungsi di sass dan cara memanggilnya dalam file style.scss. peserta juga melihat demo langsung oleh mentor untuk penerapan fungsi pada sebuah website.

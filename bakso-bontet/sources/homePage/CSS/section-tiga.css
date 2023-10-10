@@ -1,0 +1,32 @@
+.section-tiga {
+    background-color: #191919;
+    padding: 2rem 5%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-tiga .first-column .f-column-logo-bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-tiga .second-column .bottom-navbar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.section-tiga .second-column .bottom-navbar ul li {
+    list-style: none;
+}
+.section-tiga .second-column .bottom-navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-tiga .third-column .third-column-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

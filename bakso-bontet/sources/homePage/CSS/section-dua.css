@@ -1,0 +1,61 @@
+.section-dua {
+    background-color: cyan;
+    padding: 2rem 5%;
+}
+
+.cards {
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 3px solid black;
+}
+.cards .card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.cards .card .card-image {
+    width: 200px;
+    height: 150px;
+    background-color: black;
+}
+.cards .card .card-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.cards .card .card-buttons .button-detail {
+    padding: 0.5rem;
+    transition: 0.2s;
+}
+.cards .card .card-buttons .button-detail:hover {
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.cards .card .card-buttons .button-beli {
+    padding: 0.5rem;
+    transition: 0.2s;
+}
+.cards .card .card-buttons .button-beli:hover {
+    transform: scale(0.98);
+    cursor: pointer;
+}
