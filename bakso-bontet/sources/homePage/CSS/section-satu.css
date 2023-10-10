@@ -1,12 +1,15 @@
 .section-satu {
     width: 100%;
     height: max-content;
-    background-color: aquamarine;
+    background-color: #191919;
 }
 
 /* Introduction */
 .introduction {
-    background-image: url('');
+    background-image: url('https://4.bp.blogspot.com/-84eAWetqWmA/W26CTU6KgwI/AAAAAAAAC8w/NnBn-lqMF2gDsSIaywu8RCDqTzszu7ERACK4BGAYYCw/s1600/bakso%2Bsapi.jpg');
+    background-color: #191919;
+    background-repeat: no-repeat;
+    background-size: 120%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,11 +17,9 @@
     gap: 2rem;
 }
 .introduction .intro-maintitle {
-    background-color: tomato;
     text-align: center;
 }
 .introduction .intro-description {
-    background-color: antiquewhite;
     text-align: center;
 }
 
@@ -33,25 +34,36 @@
 .contents .content-left {
     display: flex;
     flex-direction: column;
-    background-color: azure;
-    width: 50%;
+    width: 60%;
     gap: 1rem;
 }
 .contents .content-left .c-left-title {
-
+    color: white;
 }
 .contents .content-left .c-left-subtitle {
-
+    color: white;
 }
 .contents .content-left .c-left-buttonMore {
     width: max-content;
     padding: 0.5rem;
+    border: 3px solid orange;
+    color: orange;
+    transition: 0.2s;
+    background-color: transparent;
+    font-family: 'Poppins';
+}
+.contents .content-left .c-left-buttonMore:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.98);
 }
 /* Right */
 .contents .content-right {
     width: 50%;
-    background-color: tomato;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: end;
 }

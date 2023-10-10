@@ -1,11 +1,14 @@
 .section-dua {
-    background-color: cyan;
+    background-color: orange;
     padding: 2rem 5%;
+}
+
+.offers {
+    color: white;
 }
 
 .cards {
     display: flex;
-    background-color: yellowgreen;
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
@@ -14,13 +17,13 @@
 .cards .card {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: white;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
     justify-content: space-between;
-    padding: 1rem;
-    border: 3px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 .cards .card .info {
     display: flex;
@@ -46,14 +49,24 @@
 .cards .card .card-buttons .button-detail {
     padding: 0.5rem;
     transition: 0.2s;
+    width: 100%;
+    border: 3px solid orange;
+    background-color: transparent;
+    color: orange;
 }
 .cards .card .card-buttons .button-detail:hover {
+    background-color: orange;
+    color: white;
     transform: scale(0.98);
     cursor: pointer;
 }
 .cards .card .card-buttons .button-beli {
+    background-color: red;
     padding: 0.5rem;
     transition: 0.2s;
+    width: 100%;
+    border: none;
+    color: white;
 }
 .cards .card .card-buttons .button-beli:hover {
     transform: scale(0.98);
