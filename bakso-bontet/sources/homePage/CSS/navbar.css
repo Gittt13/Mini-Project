@@ -41,4 +41,9 @@
     color: #191919;
     background-color: orange;
     font-family: 'Poppins';
+    transition: 0.2s;
+}
+.navbar .search .search-button:hover {
+    background-color: rgb(201, 131, 0);
+    cursor: pointer;
 }
